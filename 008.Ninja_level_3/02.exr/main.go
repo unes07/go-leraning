@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-// print every number from 1 to 10000
+// print every rune code point of uppercase alphabet
 
 func main() {
 	for i := 65; i <= 90; i++ {
