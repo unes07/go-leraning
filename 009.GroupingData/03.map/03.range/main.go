@@ -37,4 +37,10 @@ func main() {
 	for i, v := range m {
 		fmt.Println(i, v)
 	}
+
+	// range over a slice
+	xi := []int{4, 7, 9, 14}
+	for i, v := range xi {
+		fmt.Println(i, v)
+	}
 }
