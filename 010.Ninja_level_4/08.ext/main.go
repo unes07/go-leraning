@@ -18,9 +18,9 @@ func main() {
 	m["Saad"] = []string{"I'm the king of the world", "Halo", "You are the reason"}
 
 	for k, v := range m {
-		fmt.Println("Name:", k)
+		fmt.Println(k, ":")
 		for j := range v {
-			fmt.Println("\t", v[j])
+			fmt.Println("\t", j, ":", v[j])
 		}
 	}
 
