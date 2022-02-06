@@ -5,12 +5,9 @@ import "fmt"
 func main() {
 
 	// return the insider func of bar()
-	x := bar()
-	fmt.Printf("%T\n", x)
-
+	fmt.Printf("%T\n", bar())
 	// execute the insider func of bar() after storing it in x variable
-	i := x()
-	fmt.Println(i)
+	fmt.Println(bar()())
 }
 
 func bar() func() int {
