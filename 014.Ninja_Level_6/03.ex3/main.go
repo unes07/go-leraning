@@ -3,7 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	defer fmt.Println("world")
+	defer foo()
 	fmt.Println("Hello")
 
+}
+
+func foo() {
+	fmt.Println("world")
 }
